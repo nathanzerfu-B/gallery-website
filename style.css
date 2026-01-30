@@ -37,23 +37,81 @@ main span{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    overflow: hidden;
 }
 .img-content{
     display: flex;
     gap: 20px;
-    justify-content: center;
 }
 
-.img-box{
-    flex: 1;
-    overflow: hidden;
+.img-box1{
     border-radius: 10px;
 }
-.img-box img{
-    width: 100%;
-    height: auto;
+.img-box1 img{
+    width: 300px;
+    height: 300px;
     transition: transform 0.3s ease;
 }
-.img-box img:hover{
+.img-box1 img:hover{
+    transform: scale(1.05);
+}
+.img-box2{
+    border-radius: 10px;
+}
+.img-box2 img{
+    width: 550px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+.img-box2 img:hover{
+    transform: scale(1.05);
+}
+
+.img-box3{
+    border-radius: 10px;
+}
+.img-box3 img{
+    width: 400px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+.img-box3 img:hover{
+    transform: scale(1.05);
+}
+.img-box4{
+    border-radius: 10px;
+}
+
+.img-box4 img{
+    width: 550px;
+        height: 300px;
+        transition: transform 0.3s ease;
+}
+.img-box4 img:hover{
+    transform: scale(1.05);
+}
+
+.img-box5{
+    border-radius: 10px;
+}
+.img-box5 img{
+    width: 400px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+.img-box5 img:hover{
+    transform: scale(1.05);
+}
+
+.img-box6{
+    border-radius: 10px;
+}
+.img-box6 img{
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+.img-box6 img:hover{
     transform: scale(1.05);
 }
