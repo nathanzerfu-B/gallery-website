@@ -270,6 +270,7 @@ main span{
 .more-info a{
     text-decoration: none;
     color: #DADADB;
+    font-weight: 600;
     background-color: #333332;
     padding: 15px 35px;
     transition: background-color 0.3s ease;
@@ -297,7 +298,7 @@ footer span{
 .social-media{
     margin-left: auto;
     margin-right: 120px;
-
+margin-top: auto;
 }
 .social-media a{
     text-decoration: none;
@@ -315,7 +316,5 @@ footer span{
     border: #4f4f4b 2px solid;
     background-color: #807d7d89;
     border-radius: 50%;
-
     padding: 10px;
-
 }
