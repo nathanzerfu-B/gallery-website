@@ -83,7 +83,7 @@ main span{
 }
 
 .img-box4 img{
-    width: 550px;
+    width: 480px;
         height: 300px;
         transition: transform 0.3s ease;
 }
@@ -269,9 +269,10 @@ main span{
     text-decoration: none;
     color: #DADADB;
     background-color: #333332;
-    padding: 10px 20px;
+    padding: 15px 35px;
     transition: background-color 0.3s ease;
     text-align: center;
+
 }
 .more-info a:hover{
     background-color: #555554;
