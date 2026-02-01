@@ -318,3 +318,8 @@ margin-top: auto;
     border-radius: 50%;
     padding: 10px;
 }
+.social-media img:hover{
+    background-color: #A9A8A9;
+    border: #EDECED 2px solid;
+}
+
