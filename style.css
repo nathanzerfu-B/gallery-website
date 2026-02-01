@@ -34,7 +34,8 @@ main span{
 
 .img-containers{
     display: flex;
-    margin:30px;
+    margin:100px;
+    align-items: center;
     flex-direction: column;
     gap: 30px;
 }
@@ -70,7 +71,7 @@ main span{
     border-radius: 10px;
 }
 .img-box3 img{
-    width: 390px;
+    width: 340px;
     height: 300px;
     transition: transform 0.3s ease;
 }
@@ -95,7 +96,7 @@ main span{
     border-radius: 10px;
 }
 .img-box5 img{
-    width: 400px;
+    width: 350px;
     height: 300px;
     transition: transform 0.3s ease;
 }
