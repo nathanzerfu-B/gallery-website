@@ -278,3 +278,16 @@ main span{
 .more-info a:hover{
     background-color: #555554;
 }
+
+footer{
+    text-align:left;
+    padding: 20px 0;
+    color: #EDECED;
+    margin-top: 90px;
+    margin-left: 120px;
+
+}
+footer span{
+    color: #A9A8A9;
+    border-bottom:white 1px solid;
+}
