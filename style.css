@@ -23,8 +23,8 @@ header h1{
 main {
     max-width: 1200px;
     margin: 0 auto;
-    color: #4a4a46;
-    padding: 20px;
+    color: #454641;
+    margin-left: 50px;
 }
 
 .gallery-header {
@@ -45,7 +45,7 @@ main {
     /* Required for the line to appear */
     width: 40px;
     /* Length of the line */
-    height: 2px;
+    height:2px;
     /* Thickness of the line */
     background-color: #444440;
     /* Matches the text color */
