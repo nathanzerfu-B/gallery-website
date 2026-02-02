@@ -20,19 +20,37 @@ header h1{
     margin-bottom: 10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-main{
+main {
     max-width: 1200px;
     margin: 0 auto;
+    color: #4a4a46;
+    padding: 20px;
 }
-main p{
-    font-size: 1.1em;
-    margin-bottom: 20px;
-    color:#30302C;
+
+.gallery-header {
+    display: flex;
+    /* Enables flexbox */
+    align-items: center;
+    /* Centers the line and text vertically */
+    gap: 15px;
+    /* Controls the space between the line and text */
+    font-size: 1.9em;
+    font-family: sans-serif;
+    /* Matches the clean style in your photo */
 }
-main span{
-    font-size: 1.2em;
-    color: #555554;
+
+/* This creates the line automatically */
+.gallery-header::before {
+    content: "";
+    /* Required for the line to appear */
+    width: 40px;
+    /* Length of the line */
+    height: 2px;
+    /* Thickness of the line */
+    background-color: #444440;
+    /* Matches the text color */
 }
+
 
 .img-containers{
     display: flex;
@@ -48,6 +66,10 @@ main span{
 
 .img-box1{
     border-radius: 10px;
+}
+.img-box1 :hover{
+    cursor: pointer;
+
 }
 .img-box1 img{
     width: 290px;
