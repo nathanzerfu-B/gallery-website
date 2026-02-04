@@ -192,7 +192,7 @@ main {
 .img-containers-black{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     margin:80px;
     overflow: hidden;
 }
@@ -201,7 +201,7 @@ main {
     border-radius: 10px;
 }
 .img-box7 img{
-    width: 365px;
+    width: 360px;
     height: 300px;
     transition: transform 0.3s ease;
 }
@@ -224,7 +224,7 @@ main {
     border-radius: 10px;
 }
 .img-box9 img{
-    width: 300px;
+    width: 320px;
     height: 300px;
     transition: transform 0.3s ease;
 }
@@ -246,7 +246,7 @@ main {
     border-radius: 10px;
 }
 .img-box11 img{
-    width:410px;
+    width:440px;
     height: 300px;
     transition: transform 0.3s ease;
 }
@@ -257,7 +257,7 @@ main {
     border-radius: 10px;
 }
 .img-box12 img{
-    width: 300px;
+    width: 310px;
     height: 300px;
     transition: transform 0.3s ease;
 }
@@ -269,7 +269,7 @@ main {
     border-radius: 10px;
 }
 .img-box13 img{
-    width: 540px;
+    width: 585px;
     height: 300px;
     transition: transform 0.3s ease;
 }
@@ -281,7 +281,7 @@ main {
 
 }
 .img-box14 img{
-    width: 545px;
+    width: 585px;
     height: 300px;
     transition: transform 0.3s ease;
 }
