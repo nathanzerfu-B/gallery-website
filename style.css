@@ -329,12 +329,27 @@ main {
     text-align: center;
     margin: 40px 0;
 }
+.more-icon::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;/* Define the diamond shape using a polygon */
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-color: #e4e4e4;
+    
+
+
+}
 .more-info a{
     text-decoration: none;
     color: #DADADB;
     font-weight: 600;
-    background-color: #333332;
-    padding: 15px 35px;
+    background-color: #46463f;
+    padding: 25px 35px;
     transition: background-color 0.3s ease;
     text-align: center;
 
@@ -365,7 +380,7 @@ footer span{
 .social-media{
     margin-left: auto;
     margin-right: 120px;
-margin-top: auto;
+    margin-top: auto;
     gap: 20px;
     display: flex;
     align-items: center;
