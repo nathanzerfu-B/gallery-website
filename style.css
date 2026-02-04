@@ -82,9 +82,9 @@ main {
     /* Visual Styles for readability */
     color: white;/* Example CSS for a Glassmorphic card */
         background: rgba(255, 255, 255, 0.2);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
     opacity: 1;
     /* Semi-transparent black background */
     font-family: sans-serif;
@@ -105,7 +105,7 @@ main {
 }
 
 .img-box1{
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .img-box1 :hover{
     cursor: pointer;
@@ -120,7 +120,7 @@ main {
     transform: scale(1.05);
 }
 .img-box2{
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .img-box2 img{
     width: 500px;
@@ -132,7 +132,7 @@ main {
 }
 
 .img-box3{
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .img-box3 img{
     width: 340px;
@@ -144,7 +144,7 @@ main {
     transform: scale(1.05);
 }
 .img-box4{
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 .img-box4 img{
@@ -157,7 +157,7 @@ main {
 }
 
 .img-box5{
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .img-box5 img{
     width: 350px;
@@ -169,7 +169,7 @@ main {
 }
 
 .img-box6{
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .img-box6 img{
     width: 300px;
